@@ -1,5 +1,5 @@
 variable "cluster_name" {
-  default = "education-eks-dlZ8X9jF"
+  default = "education-eks-w3d6Fdrn"
 }
 
 variable "aws_region" {
