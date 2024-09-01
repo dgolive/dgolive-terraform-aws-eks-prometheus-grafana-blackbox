@@ -1,0 +1,15 @@
+replicas: 1
+minimumMasterNodes: 1
+
+ingress:
+  enabled: true
+  hosts:
+    - host: elk.aws.com #Change the hostname to the one you need
+      paths:
+        - path: /
+  
+volumeClaimTemplate:
+  accessModes: ["ReadWriteOnce"]
+  resources:
+    requests:
+      storage: 10Gi

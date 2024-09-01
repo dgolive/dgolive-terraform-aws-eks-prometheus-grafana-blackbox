@@ -1,0 +1,8 @@
+elasticsearchHosts: "http://elk.aws.com:9200"
+ingress:
+  enabled: true
+  className: "nginx"
+  hosts:
+    - host: kibana.aws.com
+      paths:
+        - path: /
